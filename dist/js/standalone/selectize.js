@@ -2300,7 +2300,7 @@
 					}
 	
 					self.updatePlaceholder();
-					self.trigger('item_add', value, $item);
+					self.trigger('item_add', value, $item, $option);
 					self.updateOriginalInput();
 				}
 			});
